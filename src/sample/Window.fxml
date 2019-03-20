@@ -7,7 +7,6 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
 <AnchorPane fx:id="Pane" prefHeight="692.0" prefWidth="954.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.WIndowController">
    <children>
       <Button fx:id="CalcButton" layoutX="399.0" layoutY="515.0" mnemonicParsing="false" onAction="#Calculate" text="Calculate" />
