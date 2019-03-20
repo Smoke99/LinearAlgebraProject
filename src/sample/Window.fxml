@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:id="Pane" prefHeight="692.0" prefWidth="954.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.WIndowController">
+   <children>
+      <Button fx:id="CalcButton" layoutX="399.0" layoutY="515.0" mnemonicParsing="false" onAction="#Calculate" text="Calculate" />
+      <Circle fill="DODGERBLUE" layoutX="176.0" layoutY="207.0" radius="49.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="131.0" layoutY="182.0" prefHeight="51.0" prefWidth="89.0" text="Node 1" />
+      <Circle fill="DODGERBLUE" layoutX="464.0" layoutY="207.0" radius="49.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="420.0" layoutY="182.0" prefHeight="51.0" prefWidth="89.0" text="Node 2" />
+      <Circle fill="DODGERBLUE" layoutX="176.0" layoutY="409.0" radius="49.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="131.0" layoutY="384.0" prefHeight="51.0" prefWidth="89.0" text="Node 3" />
+      <Circle fill="DODGERBLUE" layoutX="464.0" layoutY="409.0" radius="49.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="425.0" layoutY="392.0" text="Node 4" />
+      <Label layoutX="225.0" layoutY="190.0" prefHeight="35.0" prefWidth="187.0" text="-----------------&gt;" />
+      <Label layoutX="225.0" layoutY="392.0" prefHeight="35.0" prefWidth="187.0" text="-----------------&gt;" />
+      <Label alignment="CENTER" layoutX="148.0" layoutY="274.0" prefHeight="35.0" prefWidth="56.0" text="|" />
+      <Label alignment="CENTER" layoutX="148.0" layoutY="291.0" prefHeight="35.0" prefWidth="56.0" text="|" />
+      <Label alignment="CENTER" layoutX="148.0" layoutY="309.0" prefHeight="35.0" prefWidth="56.0" text="|" />
+      <Label alignment="CENTER" layoutX="148.0" layoutY="257.0" prefHeight="35.0" prefWidth="56.0" text="|" />
+      <Label alignment="CENTER" layoutX="437.0" layoutY="257.0" prefHeight="35.0" prefWidth="56.0" text="|" />
+      <Label alignment="CENTER" layoutX="437.0" layoutY="309.0" prefHeight="35.0" prefWidth="56.0" text="|" />
+      <Label alignment="CENTER" layoutX="437.0" layoutY="283.0" prefHeight="35.0" prefWidth="56.0" text="|" />
+      <Label layoutX="71.0" layoutY="182.0" prefHeight="35.0" prefWidth="56.0" text="---&gt;" />
+      <Label layoutX="71.0" layoutY="392.0" prefHeight="35.0" prefWidth="56.0" text="---&gt;" />
+      <Label layoutX="513.0" layoutY="190.0" prefHeight="35.0" prefWidth="56.0" text="---&gt;" />
+      <Label layoutX="513.0" layoutY="392.0" prefHeight="35.0" prefWidth="56.0" text="---&gt;" />
+      <TextField fx:id="N1ToN3" layoutX="188.0" layoutY="283.0" prefHeight="51.0" prefWidth="64.0" promptText="Y" />
+      <TextField fx:id="N1ToN2" layoutX="287.0" layoutY="149.0" prefHeight="51.0" prefWidth="64.0" promptText="X" />
+      <TextField fx:id="N3ToN4" layoutX="287.0" layoutY="427.0" prefHeight="51.0" prefWidth="64.0" promptText="Z" />
+      <TextField fx:id="N2ToN4" layoutX="477.0" layoutY="283.0" prefHeight="51.0" prefWidth="64.0" promptText="W" />
+      <TextField fx:id="Input1" layoutX="42.0" layoutY="133.0" prefHeight="51.0" prefWidth="89.0" promptText="Input" />
+      <TextField fx:id="Input2" layoutX="39.0" layoutY="346.0" prefHeight="51.0" prefWidth="89.0" promptText="Input" />
+      <TextField fx:id="Output2" layoutX="509.0" layoutY="124.0" prefHeight="51.0" prefWidth="109.0" promptText="Output" />
+      <TextField fx:id="Output2" layoutX="513.0" layoutY="427.0" prefHeight="51.0" prefWidth="109.0" promptText="Output" />
+   </children>
+</AnchorPane>
