@@ -2,8 +2,8 @@ package sample;
 
 import java.util.*;
 import java.lang.Math;
-import org.apache.commons.math.fraction.Fraction;
-import org.apache.commons.math.fraction.FractionConversionException;
+import org.apache.commons.math3.fraction.Fraction;
+import org.apache.commons.math3.fraction.FractionConversionException;
 
 /* Matrix class
  * Handles elementary Matrix operations:

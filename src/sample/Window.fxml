@@ -9,7 +9,7 @@
 
 <AnchorPane fx:id="Pane" prefHeight="692.0" prefWidth="954.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.WIndowController">
    <children>
-      <Button fx:id="CalcButton" layoutX="399.0" layoutY="515.0" mnemonicParsing="false" onAction="#Calculate" text="Calculate" />
+      <Button fx:id="CalcButton" layoutX="399.0" layoutY="515.0" mnemonicParsing="false" onAction="#Calculate" onMouseClicked="#Calculate" text="Calculate" />
       <Circle fill="DODGERBLUE" layoutX="176.0" layoutY="207.0" radius="49.0" stroke="BLACK" strokeType="INSIDE" />
       <Label layoutX="131.0" layoutY="182.0" prefHeight="51.0" prefWidth="89.0" text="Node 1" />
       <Circle fill="DODGERBLUE" layoutX="464.0" layoutY="207.0" radius="49.0" stroke="BLACK" strokeType="INSIDE" />

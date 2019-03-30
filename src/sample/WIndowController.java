@@ -46,6 +46,8 @@ public class WIndowController {
     @FXML
     void Calculate(ActionEvent event) {
 
+        
+
     }
 
     @FXML
