@@ -37,7 +37,7 @@
       <TextField fx:id="N2ToN4" layoutX="477.0" layoutY="283.0" prefHeight="51.0" prefWidth="64.0" promptText="W" />
       <TextField fx:id="Input1" layoutX="42.0" layoutY="133.0" prefHeight="51.0" prefWidth="89.0" promptText="Input" />
       <TextField fx:id="Input2" layoutX="39.0" layoutY="346.0" prefHeight="51.0" prefWidth="89.0" promptText="Input" />
-      <TextField fx:id="Output2" layoutX="509.0" layoutY="124.0" prefHeight="51.0" prefWidth="109.0" promptText="Output" />
+      <TextField fx:id="Output1" layoutX="509.0" layoutY="124.0" prefHeight="51.0" prefWidth="109.0" promptText="Output" />
       <TextField fx:id="Output2" layoutX="513.0" layoutY="427.0" prefHeight="51.0" prefWidth="109.0" promptText="Output" />
    </children>
 </AnchorPane>
