@@ -1,12 +1,16 @@
 package sample;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 
-import java.awt.event.ActionEvent;
+import java.net.URL;
+import java.util.ResourceBundle;
 
-public class Controller {
+public class Controller implements Initializable
+{
 
     @FXML
     private Button CalcButton;
@@ -27,7 +31,8 @@ public class Controller {
     private TextField Result;
 
     @FXML
-    void StripIP(ActionEvent event) {
+    void stripIP(ActionEvent event)
+    {
         String ipone = IP1.getText();
         char[] IPOne = ipone.toCharArray();
         System.out.println(ipone);
@@ -53,4 +58,9 @@ public class Controller {
     }
 
 
+    @Override
+    public void initialize(URL location, ResourceBundle resources)
+    {
+
+    }
 }

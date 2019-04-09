@@ -1,9 +1,9 @@
 package sample;
 
-import java.util.*;
-import java.lang.Math;
 import org.apache.commons.math3.fraction.Fraction;
 import org.apache.commons.math3.fraction.FractionConversionException;
+
+import java.util.LinkedList;
 
 /* Matrix class
  * Handles elementary Matrix operations:

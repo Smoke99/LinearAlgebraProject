@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
-<?import javafx.scene.shape.*?>
-<?import java.lang.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.layout.GridPane?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
 
 <GridPane alignment="center" hgap="10" prefHeight="775.0" prefWidth="1500.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <columnConstraints>
@@ -26,7 +20,7 @@
                 <TextField id="IP2" fx:id="IP2" layoutX="145.0" layoutY="280.0" promptText="Insert IP Adress Here" />
                 <TextField id="IP3" fx:id="IP3" layoutX="145.0" layoutY="366.0" promptText="Insert IP Adress Here" />
                 <TextField id="IP4" fx:id="IP4" layoutX="145.0" layoutY="447.0" promptText="Insert IP Adress Here" />
-                <Button id="CalcButton" fx:id="CalcButton" layoutX="609.0" layoutY="576.0" mnemonicParsing="false" onMouseClicked="#StripIP" prefHeight="51.0" prefWidth="270.0" text="Calculate" />
+                <Button id="CalcButton" fx:id="CalcButton" layoutX="609.0" layoutY="576.0" mnemonicParsing="false" onAction="#stripIP" prefHeight="51.0" prefWidth="270.0" text="Calculate" />
             <TextField fx:id="Result" layoutX="744.0" layoutY="194.0" prefHeight="295.0" prefWidth="597.0" promptText="Caluculated Values displayed here" />
             </children>
         </Pane>
